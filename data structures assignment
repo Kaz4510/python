@@ -25,7 +25,7 @@ else:
 
 """output: 
 Input the filename: abc.py
-The extension of the file is: python
+The extension of the file is: 'python'
 
 Input the filename: abc.txt
-The extension of the file is : txt """
+The extension of the file is : 'txt' """
