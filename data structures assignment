@@ -10,8 +10,8 @@ print(area)
 #printing the extension of a file
 
 filename = input("Input the Filename: ")
-f_extns = filename.split(".")
-if(f_extns[-1]=="py"):
+extension = filename.split(".")
+if(extension[-1]=="py"):
     print("The extension of the file is: 'python'")
 else:
-    print("The extension of the file is : '" + f_extns[-1]+"'")
+    print("The extension of the file is : '" + extension[-1]+"'")
