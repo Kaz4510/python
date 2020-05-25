@@ -1,0 +1,25 @@
+# showing fibonacci series
+def fib(n):
+     if(n<=1):
+         return n
+     else:
+        return(fib(n-1)+fib(n-2))
+
+a=int(input("Enter the number of iteration required: "))
+b=0
+for b in range(0,a):
+    print(fib(b))
+    b+=1
+    """ output:
+    Enter the number of iteration required: 10
+    0
+    1
+    1
+    2
+    3
+    5
+    8
+    13
+    21
+    34"""
+    
