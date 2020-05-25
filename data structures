@@ -1,0 +1,17 @@
+#radius of a circle
+
+r = float(input("Input the radius of the circle : "))
+pi= 3.141592653589793
+area = pi*r**2
+print("the area of the circle with radius",r,"is: ")
+print(area)
+
+
+#printing the extension of a file
+
+filename = input("Input the Filename: ")
+f_extns = filename.split(".")
+if(f_extns[-1]=="py"):
+    print("The extension of the file is: 'python'")
+else:
+    print("The extension of the file is : '" + f_extns[-1]+"'")
