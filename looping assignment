@@ -1,0 +1,39 @@
+# removing the negative integers from a list
+def rem(x):
+    r=0
+    while(r<2):
+        m=0    
+        while(m<len(lis)):
+            if lis[m]<=0:
+                lis.remove(lis[m])
+            m+=1
+        r+=1
+    print(lis)
+
+
+t=int(input("Enter the number of tries: "))
+v=0
+while(v<t):
+    lis=[]
+    n = int(input("Enter the number of inputs: "))
+    for x in range(0,n):
+        i=int(input())
+        lis.append(i)
+    v+=1
+   
+rem(lis)
+
+"""output:
+Enter the number of tries: 2                                                                                                                 
+Enter the number of inputs: 4                                                                                                                
+-1                                                                                                                                           
+-2                                                                                                                                           
+-3                                                                                                                                           
+4                                                                                                                                            
+Enter the number of inputs: 5                                                                                                                
+1                                                                                                                                            
+2                                                                                                                                            
+3                                                                                                                                            
+-4                                                                                                                                           
+5                                                                                                                                            
+[1, 2, 3, 5] 
