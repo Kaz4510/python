@@ -1,0 +1,22 @@
+def freq(st):
+    f={}
+    for i in st:
+        if i in f:
+            f[i]+=1
+        else:
+            f[i]=1
+    print(f)
+n=0
+while(n!=1):
+    st = input("Plese enter a string: ")
+    freq(st)
+    n=int(input("enter 1 to exit, else any to continue:"))
+ 
+ '''output:
+ Please enter a string: mississippi                                                                                                         
+{'s': 4, 'm': 1, 'i': 4, 'p': 2}                                                                                                           
+enter 1 to exit, else any to continue:0                                                                                                    
+Please enter a string: hyderabad                                                                                                           
+{'d': 2, 'e': 1, 'r': 1, 'b': 1, 'y': 1, 'a': 2, 'h': 1}                                                                                   
+enter 1 to exit, else any to continue:1
+'''
